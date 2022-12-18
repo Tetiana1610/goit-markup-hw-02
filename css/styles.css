@@ -1,6 +1,11 @@
+:root {
+    
+
+
+}
 body {
-color: ;
 font-family: 'Roboto', sans-serif;
+background: #FFFFFF;
 }
 .list {
     list-style: none;
@@ -167,7 +172,14 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2E2F42;
 }
+
+.second-list {
+}
+
+.second-item {
+}
 .team {
+    background: #F4F4FD;
 }
 .team-title {
     font-family: 'Roboto';
@@ -184,6 +196,7 @@ color: #2E2F42;
 .team-list {
 }
 .team-item {
+    background: #FFFFFF;
 }
 .team-name {
     font-family: 'Roboto';
@@ -247,16 +260,19 @@ color: #E7E9FC;
 
 
 .portfolio {
+   
 }
-.title {
+.title-portfolio {
+ 
 }
 .btn-list {
-    background: #F4F4FD;
+    
 }
 .list {
 }
 .title-btn {
-    font-family: 'Roboto';
+    background: #F4F4FD;
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
@@ -275,3 +291,31 @@ cursor: pointer;
  .title-btn:focus {
      color: #404BBF; 
  }
+ .title-service {
+}
+
+.service-list {
+}
+.list {
+}
+.list-img {
+}
+.title-img {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.title-img-text {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+ 
